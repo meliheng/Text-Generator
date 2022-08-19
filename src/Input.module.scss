@@ -1,0 +1,19 @@
+.inputContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2rem;
+	height: 6rem;
+	label {
+		margin-right: 2rem;
+	}
+	input {
+		padding: 1rem 0.2rem;
+		border: 1px solid #413a3a;
+		border-radius: 0.5rem;
+		transition: 200ms all;
+		&:focus {
+			border: 2px solid rgb(70, 68, 182);
+		}
+	}
+}
